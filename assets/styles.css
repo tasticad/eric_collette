@@ -42,6 +42,7 @@ li {
 }
 
 
+
 .banner {
   font-family: 'Bilbo Swash Caps', cursive;
   background: linear-gradient(-90deg, gainsboro, lightgrey);
@@ -64,11 +65,20 @@ li {
   flex-direction: column;
 }
 .artwork {
+  position: relative;
   padding-top: 20px;
   text-align: center;
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center;*/
+}
+.artwork .dim {
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  padding-left: 100px;
+  bottom: 0;
+  font-style: italic;
 }
 
 .artwork-container {

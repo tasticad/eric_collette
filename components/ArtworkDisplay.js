@@ -9,14 +9,12 @@ app.component('artwork-display', {
 	/*html*/
 	`<div class="artwork-display">
 		<div class="container">
-			<div class="artwork"v-for="artwork in artworks">
+			<div class="artwork" v-for="artwork in artworks">
 				<img v-bind:src="artwork.image">
 				<h4>{{ artwork.title }}</h4>
 			</div>
 			<!--div class="artwork-info">
 				<h1>{{ title }}</h1>
-
-				
 			</div-->
 		</div>
 	</div>`,
