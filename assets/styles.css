@@ -7,7 +7,6 @@ body {
   color: dimgrey;
 
 }
-
 h1, h2, h3, h4 {
   font-family: 'Bilbo Swash Caps', cursive;
   color: grey;
@@ -15,13 +14,9 @@ h1, h2, h3, h4 {
   margin-top: 0;
   width: 100%;
 }
-
-
 li {
   font-size: 18px;
 }
-
-
 
 header {
   position: relative;
@@ -37,7 +32,7 @@ header {
 }
 header h1 {
   color: whitesmoke;
-  font-size: 5em;
+  font-size: 7.5em;
   margin: .25em 0 .1em;
 }
 header ul {
@@ -53,10 +48,20 @@ header button {
   background-color: whitesmoke;
   border: none;
   color: darkgrey;
-  font-size: 1em;
+  font-size: 1.5em;
   cursor: pointer;
-  width: 100px;
-  height: 40px;
+  width: 150px;
+  height: 60px;
+}
+@media (min-width:480px) {
+  header h1 {
+    font-size: 5em;
+  }
+  header button {
+    font-size: 1em;
+    width: 100px;
+    height: 40px;
+  }
 }
 
 .artwork-display {
