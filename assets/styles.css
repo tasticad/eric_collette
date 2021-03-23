@@ -32,6 +32,7 @@ header {
 header h1 {
   color: #df8327;
   font-size: 4em;
+  text-shadow: 2px 2px #A1B9CE;
   margin: .25em 0 .1em;
 }
 header ul {
